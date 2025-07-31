@@ -1,0 +1,92 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #f5f8fb;
+}
+
+.container {
+  width: 90%;
+  max-width: 960px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  background: linear-gradient(to right, #3f87a6, #ebf8e1, #f69d3c);
+  color: #000;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header .profile-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 15px;
+  border: 3px solid #fff;
+}
+
+section {
+  padding: 40px 20px;
+  background: linear-gradient(to right, #7f7586, #cdedb3, #dcaa75);
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #3f87a6;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.cv-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #3f87a6;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.cv-btn:hover {
+  background: #326b8c;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #3f87a6;
+  color: white;
+  border-top: 5px solid #f69d3c;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.8em;
+  }
+
+  .container {
+    padding: 15px;
+  }
+}
