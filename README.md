@@ -1,8 +1,8 @@
-# Personal Portfolio Website
+Personal Portfolio Website
 
 This is my responsive and accessible personal portfolio website built as part of the **PLP Academy Hackathon 1: Portfolio Challenge**. It showcases my journey as a developer, the projects I’ve completed during the program, and highlights my growing skill set.
 
-## 🌟 Features
+Features
 
 - Fully responsive layout using HTML5 & CSS3
 - Clean, minimalist design optimized for readability
@@ -15,7 +15,7 @@ This is my responsive and accessible personal portfolio website built as part of
   - Downloadable CV
   - Contact Form (non-functional placeholder)
 
-## 📁 Folder Structure
+Folder Structure
 
 ```plaintext
 PLP_Portfolio_Site/
@@ -25,3 +25,8 @@ PLP_Portfolio_Site/
 ├── images/              # Folder for profile picture(s)
 ├── docs/                # Folder for downloadable CV
 └── README.md            # This file
+
+ Live Preview
+
+You can view the deployed portfolio here:  
+https://first-portfolio-ruddy.vercel.app/
